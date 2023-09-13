@@ -1353,7 +1353,10 @@ MonoBehaviour:
   - {fileID: 2384605216386450459, guid: 0a7960d60ed035f48a1ee8e5cd106112, type: 3}
   enemyCount: 0
   waveNumber: 1
-  powerupPrefab: {fileID: 6921734847238511072, guid: b32601f1178183f438c54d26f2be144c, type: 3}
+  powerupPrefabs:
+  - {fileID: 6921734847238511072, guid: b32601f1178183f438c54d26f2be144c, type: 3}
+  - {fileID: 6921734847238511072, guid: e690d77b5de285242a093b3beeaad2a3, type: 3}
+  - {fileID: 6921734847238511072, guid: 20e1aaa3f503f45429097864737286d1, type: 3}
 --- !u!4 &1657662477
 Transform:
   m_ObjectHideFlags: 0
@@ -1704,7 +1707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6568199606006378589, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6568199606006378589, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1737,6 +1740,34 @@ PrefabInstance:
     - target: {fileID: 6568199606006378589, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: hangTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: hasPowerup
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: smashSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: rocketPrefab
+      value: 
+      objectReference: {fileID: 8985671180181113320, guid: 0289521619c13184886b7df886ff38e4, type: 3}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: currentPowerUp
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: explosionForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
+      propertyPath: explosionRadius
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: powerupIndicator
