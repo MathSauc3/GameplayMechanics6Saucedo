@@ -26,9 +26,14 @@ public class PlayerController : MonoBehaviour
 
         floorY = transform.position.y;
 
-        float JumpTime = Time.time + hangTime;
+        float jumpTime = Time.time + hangTime;
 
-        while(Time.time < JumpTime)
+        while (Time.time < jumpTime)
+        {
+            playerRb.velocity = new Vector2(playerRb.velocity.x, smashSpeed);
+            yield return null;
+        }
+        while(transform.position.y > floorY)
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, -smashSpeed * 2);
             yield return null;

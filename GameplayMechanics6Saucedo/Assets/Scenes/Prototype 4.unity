@@ -1743,7 +1743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: hangTime
-      value: 5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: hasPowerup
@@ -1751,7 +1751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: smashSpeed
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: rocketPrefab
@@ -1759,15 +1759,15 @@ PrefabInstance:
       objectReference: {fileID: 8985671180181113320, guid: 0289521619c13184886b7df886ff38e4, type: 3}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: currentPowerUp
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: explosionForce
-      value: 50
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: explosionRadius
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8646906965542393035, guid: 1b9e65996962415429e57fb43c9fd475, type: 3}
       propertyPath: powerupIndicator
